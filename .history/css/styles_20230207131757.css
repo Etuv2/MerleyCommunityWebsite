@@ -137,7 +137,7 @@ hr {
 
 .section-header .section-title {
   font-size: 44px;
-  color: rgb(255, 255, 255);
+  color: rgb(37, 148, 14);
   text-transform: uppercase;
   position: relative;
   padding-bottom: 20px;
@@ -704,10 +704,10 @@ ul.nostyle i {
   height: 32px;
   line-height: 32px;
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(37, 148, 14);
   background: transparent;
   border-radius: 3px;
-  border: 1px solid rgb(255, 255, 255);
+  border: 1px solid rgb(37, 148, 14);
 }
 
 /*Testimonial Area*/
@@ -960,8 +960,8 @@ ul.nostyle i {
 ********* Footer ******
 ************************/
 #footer {
-  /* we want the footer to stick to the bottom of the page */
-  /* padding-top: 100px; */
+  
+  padding-top: 100px;
   color: #fff;
   /*We want to make the background of the footer a linear gradient so that it goes from dark to light green*/
   background: linear-gradient(to bottom, #22253428 0%, #074086 100%);
