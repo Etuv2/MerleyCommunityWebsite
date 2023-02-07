@@ -249,7 +249,7 @@ ul.nostyle i {
 *******Header******
 **************************/
 #main-nav.navbar-default {
-  background: #527edf;
+  background: #FFFFFF;
 }
 
 #main-nav.navbar-default .navbar-nav>li.active>a,
@@ -275,7 +275,7 @@ ul.nostyle i {
   margin-right: 40px;
   font-size: 40px;
   text-transform: uppercase;
-  color: rgb(58, 124, 230);
+  color: rgb(37, 148, 14);
 }
 
 @media only screen and (min-width: 768px) {
@@ -355,12 +355,12 @@ ul.nostyle i {
 #hero-banner.item {
   height: 558px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 0;
   background-size: cover;
 }
 
 #hero-banner.banner-inner {
-  position: cen;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;

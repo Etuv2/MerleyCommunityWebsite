@@ -12,14 +12,16 @@ body {
   line-height: 26px;
   /*we need a linear gradient for the background that starts with a dark green , then fades to a light green and then to transparent*/
   background: #5AABD7;
+
+}
+body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   background: #000;
-}
-
-#video-background {
+  }
+  #video-background {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -28,68 +30,7 @@ body {
   width: auto;
   height: auto;
   z-index: -100;
-
-}
-
-button {
-  margin: 20px;
-}
-
-.custom-btn {
-  width: 130px;
-  height: 40px;
-  color: #fff;
-  border-radius: 5px;
-  padding: 10px 25px;
-  font-family: 'Lato', sans-serif;
-  font-weight: 500;
-  background: transparent;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-
-  outline: none;
-}
-
-/* 9 */
-.btn-9 {
-  border: none;
-  transition: all 0.3s ease;
-  overflow: hidden;
-}
-
-.btn-9:after {
-  position: absolute;
-  content: " ";
-  z-index: -1;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #1fd1f9;
-  background-image: linear-gradient(315deg, #1fd1f9 0%, #1029ea 74%);
-  transition: all 0.3s ease;
-}
-
-.btn-9:hover {
-  background: transparent;
-  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
-    -4px -4px 6px 0 rgba(116, 125, 136, .2),
-    inset -4px -4px 6px 0 rgba(255, 255, 255, .5),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
-  color: #fff;
-}
-
-.btn-9:hover:after {
-  -webkit-transform: scale(2) rotate(180deg);
-  transform: scale(2) rotate(180deg);
-  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, .5),
-    -4px -4px 6px 0 rgba(116, 125, 136, .2),
-    inset -4px -4px 6px 0 rgba(255, 255, 255, .5),
-    inset 4px 4px 6px 0 rgba(116, 125, 136, .3);
-}
-
+  }
 h1,
 h2,
 h3,
@@ -249,7 +190,7 @@ ul.nostyle i {
 *******Header******
 **************************/
 #main-nav.navbar-default {
-  background: #527edf;
+  background: #FFFFFF;
 }
 
 #main-nav.navbar-default .navbar-nav>li.active>a,
@@ -275,7 +216,7 @@ ul.nostyle i {
   margin-right: 40px;
   font-size: 40px;
   text-transform: uppercase;
-  color: rgb(58, 124, 230);
+  color: rgb(37, 148, 14);
 }
 
 @media only screen and (min-width: 768px) {
@@ -297,8 +238,8 @@ ul.nostyle i {
   #main-nav.navbar-default .navbar-nav>li.active>a,
   #main-nav.navbar-default .navbar-nav>li.open>a,
   #main-nav.navbar-default .navbar-nav>li:hover>a {
-    /* the line will be the background with blue color and a transparency of 0.5 */
-    background: rgba(0, 119, 182, 0.5);
+    /* the line will be the background with blue color and a tran
+
     color: #FFF;
   }
 
@@ -355,12 +296,12 @@ ul.nostyle i {
 #hero-banner.item {
   height: 558px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 0;
   background-size: cover;
 }
 
 #hero-banner.banner-inner {
-  position: cen;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
