@@ -610,7 +610,7 @@ ul.nostyle i {
   transition: none;
 }
 
-.img-thumbnail {
+/* .img-thumbnail {
   display: inline-block;
   max-width: 100%;
   height: auto;
@@ -627,7 +627,7 @@ ul.nostyle i {
 .img-thumbnail:hover {
   transform: scale(1.1);
   cursor: pointer;
-}
+} */
 
 #testimonial {
   background: #000000;
