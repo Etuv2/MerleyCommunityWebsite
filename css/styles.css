@@ -1065,6 +1065,8 @@ ul.nostyle i {
   color: #fff;
   /*We want to make the background of the footer a linear gradient so that it goes from dark to light green*/
   background: linear-gradient(to bottom, #22253428 0%, #074086 100%);
+  /*make the footer stick to the bottom of the page*/
+  position: absolute;
 }
 
 #footer a {
