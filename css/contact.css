@@ -1,3 +1,10 @@
+.contact_container{
+    background: rgba(0, 162, 255, 0.479);
+    width: 100%;
+    margin: 10px;
+
+}
+
 .contact .row{
     display: flex;
     background:var(--black);
