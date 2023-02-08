@@ -1059,7 +1059,7 @@ ul.nostyle i {
 /***********************
 ********* Footer ******
 ************************/
-.footer {
+#footer {
   /* we want the footer to stick to the bottom of the page */
   /* padding-top: 100px; */
   color: #fff;
@@ -1067,25 +1067,23 @@ ul.nostyle i {
   background: linear-gradient(to bottom, #22253428 0%, #074086 100%);
   /*make the footer stick to the bottom of the page*/
   position: absolute;
-  /*set the width to 100% so that it covers the entire page*/
-  width: 100%;
 }
 
-.footer a {
+#footer a {
   color: #fff;
 }
 
-.footer a:hover {
+#footer a:hover {
   color: #0085eb;
 }
 
-.footer ul {
+#footer ul {
   list-style: none;
   padding: 0;
   margin: 0 -7.5px;
 }
 
-.footer ul>li {
+#footer ul>li {
   display: inline-block;
 
   border: 1px solid rgba(255, 255, 255, 0.09);
