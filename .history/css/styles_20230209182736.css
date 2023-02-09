@@ -110,11 +110,7 @@ html[xmlns] .clearfix { display: block; }
   margin: 20px 10px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
   padding: 15px 20px;
-  /* constrain the size of the box */
-  height: 300px;
-  width: 600px;
-  /*align the box to the center of the container */
-  align-self: center;
+  /* constrain the height of the box */
 }
 .box_image {
   width: 100%;

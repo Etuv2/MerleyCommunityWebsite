@@ -113,8 +113,6 @@ html[xmlns] .clearfix { display: block; }
   /* constrain the size of the box */
   height: 300px;
   width: 600px;
-  /*align the box to the center of the container */
-  align-self: center;
 }
 .box_image {
   width: 100%;
