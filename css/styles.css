@@ -296,7 +296,7 @@ ul.nostyle i {
 
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
-  border-color: #1e2427;
+  border-color: #1a9fd4;
 }
 
 .navbar-nav>li>a {
@@ -395,7 +395,7 @@ ul.nostyle i {
   #main-nav.navbar-default .dropdown-menu {
     padding: 0 20px;
     min-width: 220px;
-    background-color: rgba(26, 28, 40, 0.9);
+    background-color: rgba(255, 255, 255, 0.9);
     border: 0;
     border-radius: 0;
     box-shadow: none;
@@ -413,7 +413,7 @@ ul.nostyle i {
 
   #main-nav.navbar-default .dropdown-menu>li>a {
     padding: 15px 0;
-    color: #A8A8A8;
+    color: #ffffff;
   }
 
   #main-nav.navbar-default .dropdown-menu>li:first-child>a {
@@ -554,7 +554,7 @@ ul.nostyle i {
 
 #portfolio {
   padding: 100px 0;
-  background: #000000;
+  background: linear-gradient(to bottom, #455bd670 0%, #45add681 100%);
 }
 
 #portfolio .portfolio-filter {
@@ -575,12 +575,11 @@ ul.nostyle i {
   margin: 0px 2px;
   color: rgb(255, 255, 255);
   position: relative;
-  border: 1px solid rgb(37, 148, 14);
 }
 
 #portfolio .portfolio-filter>li a:hover,
 #portfolio .portfolio-filter>li a.active {
-  background: rgb(37, 148, 14);
+  background: rgb(27, 67, 243);
   color: #fff;
 }
 
@@ -1058,7 +1057,7 @@ ul.nostyle i {
   /*make the footer stick to the bottom of the page*/
   position: absolute;
   /*set the width to 100% so that it covers the entire page*/
-  width: 100%;
+  width: 120%;
 }
 
 .footer a {
@@ -1135,8 +1134,9 @@ ul.nostyle i {
 
 .waves {
   position: relative;
+  /*we need to make the waves the same width as the container*/
   width: 100%;
-  height: 3vh;
+  margin: 0 auto;
   margin-bottom: -7px;/*Fix for safari gap*/
   /*Fix for safari gap*/
   min-height: 50px;
@@ -1199,5 +1199,23 @@ ul.nostyle i {
 
   h1 {
     font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h4 {
+    font-size: 16px;
+  }
+  h5 {
+    font-size: 14px;
+  }
+  h6 {
+    font-size: 12px;
+  }
+  p {
+    font-size: 14px;
   }
 }
