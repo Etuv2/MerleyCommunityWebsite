@@ -12,7 +12,7 @@
 }
 
 *{
-    margin: 0;
+    margin:  0;
     padding: 0;
 }
 body{
@@ -21,7 +21,7 @@ body{
 }
 .container{
     width: 80%;
-    margin: 50px auto;
+    margin: -20px auto;
 }
 .contact-box{
     background: #fff;
